@@ -230,7 +230,7 @@ $horizontalComponentOffset: 180px;
 // -------------------------
 $navbarHeight: 52px;
 
-$navbarBackground: $white;
+$navbarBackground: $gray-2;
 $navbarBorder: 1px solid $gray-5;
 
 $navbarButtonBackground: lighten($navbarBackground, 3%);
@@ -242,7 +242,7 @@ $navbar-button-border: $gray-4;
 // -------------------------
 $side-menu-bg: $dark-1;
 $side-menu-bg-mobile: rgba(0, 0, 0, 0); //$gray-6;
-$side-menu-item-hover-bg: $gray-1;
+$side-menu-item-hover-bg: $gray-3;
 $side-menu-shadow: 5px 0px 10px -5px $gray-1;
 $side-menu-link-color: $gray-6;
 

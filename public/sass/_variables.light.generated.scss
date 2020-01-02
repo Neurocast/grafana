@@ -29,13 +29,13 @@ $orange-dark: #ed5700;
 // -------------------------
 $black: #000000;
 
-$dark-1: #1e2028;
+$dark-1: #2768c1;
 $dark-2: #41444b;
 $dark-4: #35373f;
 $dark-10: #424345;
 $gray-1: #52545c;
 $gray-2: #767980;
-$gray-3: #acb6bf;
+$gray-3: #0092dc;
 $gray-4: #c7d0d9;
 $gray-5: #dde4ed;
 $gray-6: #e9edf2;
@@ -52,7 +52,7 @@ $orange: #ff7941;
 $purple: #9954bb;
 $variable: #0083b3;
 
-$brand-primary: #ff7941;
+$brand-primary: #0083b3;
 $brand-success: #3eb15b;
 $brand-warning: #ff7941;
 $brand-danger: #e02f44;
@@ -92,8 +92,8 @@ $edit-gradient: linear-gradient(-60deg, $gray-7, #f5f6f9 70%, $gray-7 98%);
 // Links
 // -------------------------
 $link-color: #52545c;
-$link-color-disabled: #acb6bf;
-$link-hover-color: #1e2028;
+$link-color-disabled: #0092dc;
+$link-hover-color: #2768c1;
 $external-link-color: #5794f2;
 
 // Typography
@@ -233,7 +233,7 @@ $horizontalComponentOffset: 180px;
 // -------------------------
 $navbarHeight: 52px;
 
-$navbarBackground: $white;
+$navbarBackground: $gray-2;
 $navbarBorder: 1px solid $gray-5;
 
 $navbarButtonBackground: lighten($navbarBackground, 3%);
@@ -245,7 +245,7 @@ $navbar-button-border: $gray-4;
 // -------------------------
 $side-menu-bg: $dark-1;
 $side-menu-bg-mobile: rgba(0, 0, 0, 0); //$gray-6;
-$side-menu-item-hover-bg: $gray-1;
+$side-menu-item-hover-bg: $gray-3;
 $side-menu-shadow: 5px 0px 10px -5px $gray-1;
 $side-menu-link-color: $gray-6;
 

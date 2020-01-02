@@ -7,9 +7,7 @@ init_cmds = [
 watch_all = true
 follow_symlinks = true
 watch_dirs = [
-	"$WORKDIR/pkg",
-	"$WORKDIR/public/views",
-	"$WORKDIR/conf",
+	"$WORKDIR/public/views"
 ]
 watch_exts = [".go", ".ini", ".toml", ".template.html"]
 build_delay = 1500

@@ -5,7 +5,7 @@ const basicColors = {
   ...commonColorsPalette,
   black: '#000000',
   white: '#ffffff',
-  dark1: '#1e2028',
+  dark1: '#2768C1', // is for neurocast theme edited to dark blue
   dark2: '#41444b',
   dark3: '#303133', // not used in light theme
   dark4: '#35373f', // not used in light theme
@@ -17,7 +17,7 @@ const basicColors = {
   dark10: '#424345', // not used in light theme
   gray1: '#52545c',
   gray2: '#767980',
-  gray3: '#acb6bf',
+  gray3: '#0092dc',
   gray4: '#c7d0d9',
   gray5: '#dde4ed',
   gray6: '#e9edf2',
@@ -50,7 +50,7 @@ const lightTheme: GrafanaTheme = {
     ...basicColors,
     variable: basicColors.blue,
     inputBlack: '#09090b',
-    brandPrimary: basicColors.orange,
+    brandPrimary: basicColors.blue,
     brandSuccess: basicColors.greenBase,
     brandWarning: basicColors.orange,
     brandDanger: basicColors.redBase,

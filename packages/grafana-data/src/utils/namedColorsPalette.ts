@@ -148,10 +148,10 @@ const buildNamedColorsPalette = () => {
   const LightBlue = buildColorDefinition('blue', 'light-blue', ['#5794F2', '#8AB8FF']);
   const SuperLightBlue = buildColorDefinition('blue', 'super-light-blue', ['#8AB8FF', '#C0D8FF']);
 
-  const BasicOrange = buildColorDefinition('orange', 'orange', ['#FF780A', '#FF9830'], true);
-  const DarkOrange = buildColorDefinition('orange', 'dark-orange', ['#E55400', '#FA6400']);
+  const BasicOrange = buildColorDefinition('orange', 'orange', ['#FF780A', '#f0871b'], true);
+  const DarkOrange = buildColorDefinition('orange', 'dark-orange', ['#ff7f00', '#FA6400']);
   const SemiDarkOrange = buildColorDefinition('orange', 'semi-dark-orange', ['#FA6400', '#FF780A']);
-  const LightOrange = buildColorDefinition('orange', 'light-orange', ['#FF9830', '#FFB357']);
+  const LightOrange = buildColorDefinition('orange', 'light-orange', ['#f0871b', '#FFB357']);
   const SuperLightOrange = buildColorDefinition('orange', 'super-light-orange', ['#FFB357', '#FFCB7D']);
 
   const BasicPurple = buildColorDefinition('purple', 'purple', ['#A352CC', '#B877D9'], true);
